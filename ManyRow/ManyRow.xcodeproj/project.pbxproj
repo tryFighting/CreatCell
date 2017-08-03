@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F18ED3451F32DDC7009899F3 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18ED3441F32DDC7009899F3 /* BaseView.m */; };
 		F1B866541F32D0820066DCB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B866531F32D0820066DCB9 /* main.m */; };
 		F1B866571F32D0820066DCB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B866561F32D0820066DCB9 /* AppDelegate.m */; };
 		F1B8665A1F32D0820066DCB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B866591F32D0820066DCB9 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F18ED3431F32DDC7009899F3 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		F18ED3441F32DDC7009899F3 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		F1B8664F1F32D0820066DCB9 /* ManyRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManyRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B866531F32D0820066DCB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1B866551F32D0820066DCB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		F1B866511F32D0820066DCB9 /* ManyRow */ = {
 			isa = PBXGroup;
 			children = (
+				F18ED3431F32DDC7009899F3 /* BaseView.h */,
+				F18ED3441F32DDC7009899F3 /* BaseView.m */,
 				F1B866551F32D0820066DCB9 /* AppDelegate.h */,
 				F1B866561F32D0820066DCB9 /* AppDelegate.m */,
 				F1B866581F32D0820066DCB9 /* ViewController.h */,
@@ -279,6 +284,7 @@
 				F1B8665A1F32D0820066DCB9 /* ViewController.m in Sources */,
 				F1B866571F32D0820066DCB9 /* AppDelegate.m in Sources */,
 				F1B866541F32D0820066DCB9 /* main.m in Sources */,
+				F18ED3451F32DDC7009899F3 /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +434,7 @@
 				DEVELOPMENT_TEAM = 98298VBF9J;
 				INFOPLIST_FILE = ManyRow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maodaokeji.www.ManyRow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maodao.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,7 +446,7 @@
 				DEVELOPMENT_TEAM = 98298VBF9J;
 				INFOPLIST_FILE = ManyRow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maodaokeji.www.ManyRow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maodao.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -514,6 +520,7 @@
 				F1B8667E1F32D0820066DCB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1B8667F1F32D0820066DCB9 /* Build configuration list for PBXNativeTarget "ManyRowTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				F1B866811F32D0820066DCB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1B866821F32D0820066DCB9 /* Build configuration list for PBXNativeTarget "ManyRowUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				F1B866841F32D0820066DCB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
